@@ -391,3 +391,5 @@ pred  = (rf_model.predict(X_new) + xgb_model.predict(X_new)) / 2
 ---
 
 ## License
+
+This project is licensed under the [MIT License](LICENSE).
