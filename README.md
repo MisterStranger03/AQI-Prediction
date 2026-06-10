@@ -79,12 +79,7 @@ Air_Quality/
 ├── AQI_Prediction.ipynb        # Main notebook — full end-to-end pipeline
 ├── requirements.txt            # Pinned Python dependencies
 ├── README.md                   # This file
-│
-├── data/
-│   ├── .gitignore              # Excludes raw CSVs from version control
-│   └── README.md               # Data acquisition instructions
-│
-└── src/                        # Optional — refactored modules (not yet extracted)
+
 ```
 
 Serialized model artifacts are written to the working directory by the notebook's save cell:
